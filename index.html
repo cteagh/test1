@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CKEditor5IOS</title>
+	<link rel="manifest" href="/manifest.json">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<style type="text/css"></style>
+	<!-- for IOS -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="blue">
+	<meta name="theme-color" content="purple">
+	<link rel="apple-touch-icon" sizes="192x192" href="192.png" />
+	
+</head>
+<body>
+
+testing pwa web app<p>
+
+<script>
+ if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/service-worker.js').then(function (reg) {
+                    console.log('Registered Service Worker for XXX');
+                });
+            });
+  }
+</script>
+</body>
+</html>
