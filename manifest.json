@@ -1,0 +1,17 @@
+{
+  "name": "test pwa",
+  "short_name": "TextPWA",
+  "description": "testing pwa in a ways",
+  "start_url": "http://127.0.0.1:8887",
+  "display": "standalone",
+  "background_color": "green",
+  "theme_color": "red",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
