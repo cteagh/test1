@@ -2,7 +2,7 @@
   "name": "test pwa",
   "short_name": "TextPWA",
   "description": "testing pwa in a ways",
-  "start_url": "http://127.0.0.1:8887",
+  "start_url": "https://https://cteagh.github.io/test1/",
   "display": "standalone",
   "background_color": "green",
   "theme_color": "red",
